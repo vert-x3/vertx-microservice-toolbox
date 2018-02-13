@@ -732,6 +732,12 @@
  *
  * include::redis-backend.adoc[]
  *
+ * == Additional types
+ *
+ * In addition to the service types listed above, Vert.x Service Discovery provides additional types:
+ *
+ * include::grpc-service-type.adoc[]
+ *
  */
 @ModuleGen(name = "vertx-service-discovery", groupPackage = "io.vertx")
 @Document(fileName = "index.adoc")

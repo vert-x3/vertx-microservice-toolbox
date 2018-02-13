@@ -1076,3 +1076,9 @@ In addition of the backend supported by this library, Vert.x Service Discovery p
 backends you can use in your application.
 
 include::redis-backend.adoc[]
+
+== Additional types
+
+In addition to the service types listed above, Vert.x Service Discovery provides additional types:
+
+include::grpc-service-type.adoc[]

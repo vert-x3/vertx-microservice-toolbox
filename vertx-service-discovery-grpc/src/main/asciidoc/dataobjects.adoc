@@ -1,0 +1,34 @@
+= Cheatsheets
+
+[[GrpcLocation]]
+== GrpcLocation
+
+++++
+ Represents the location of a GRPC endpoint. This object (its json representation) will be
+ used as "location" in a service record.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[endpoint]]`endpoint`|`String`|
++++
+Sets the endpoint, which is the URL of the service. The endpoint is automatically
+ computed when you use the other `setX` method.
++++
+|[[host]]`host`|`String`|
++++
+Sets the host.
++++
+|[[port]]`port`|`Number (int)`|
++++
+Sets the port
++++
+|[[ssl]]`ssl`|`Boolean`|
++++
+Sets whether or not the GRPC service is expecting a TLS connection.
++++
+|===
+

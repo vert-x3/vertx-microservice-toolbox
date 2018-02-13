@@ -1,0 +1,6 @@
+=== GRPC Service Type
+
+This service type allows retrieving a GRPC stub.
+
+Use `GrpcService` to publish
+and retrieve GRPC services.
